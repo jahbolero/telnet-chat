@@ -6,7 +6,7 @@ s.setblocking(False)
 s.bind((host, port))
 s.listen(1)
 
-print 'listening at %s %s' %(host,port)
+print ('listening at %s %s' %(host,port))
 def register(nickname,conn,password):
     if nickname not in registered:
         registered[nickname] = password

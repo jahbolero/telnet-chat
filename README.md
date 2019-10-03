@@ -1,6 +1,6 @@
 # telnet-chat
 ## Server Setup
-1."python server.py"
+1."python server.py" \
 2.The server will return the host and port to connect to.
 
 ## Client
